@@ -1,0 +1,67 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f0f8ff;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 50px auto;
+  font-size: 2rem;
+  text-align: center;
+}
+.header {
+  background: #e6e6fa;
+  padding: 5rem 0;
+}
+.footer {
+  background: #add8e6;
+  padding: 5rem 0;
+  clear: both;
+}
+
+/*以下に自身でcssを記載する*/
+
+
+.menu{
+  overflow: hidden;
+  width: 500px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #333;
+  list-style: none;
+
+  float: left;
+  width: 150px;
+  text-align: center;
+  line-height: 120px;
+  background: #f0e36c;
+
+}
+
+.cb{
+  /* floatを解除 */
+  clear: both;
+}
+
+.menu2{
+  overflow: hidden;
+  width: 500px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #333;
+  list-style: none;
+
+  float: right;
+  width: 150px;
+  text-align: center;
+  line-height: 120px;
+  background: #f0e36c;
+
+}
